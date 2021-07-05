@@ -17,10 +17,17 @@ body {
     margin-bottom: 30px;
 }
 
+.row div:nth-child(2),
+.row div:nth-child(3),
+.row div:nth-child(4) {
+    margin-left: 20px;
+}
+
 .card {
     height: 200px;
-    width: 200px;
-    background-color: violet;
+    width: 180px;
+    background-image: url(../img/pattern.png);
+    background-size: contain;
 }
 
 .float-left {
@@ -33,9 +40,13 @@ body {
     clear: both;
 }
 
+.border-radius {
+    border-radius: 10px;
+}
+
 #main-header {
     height: 50px;
-    margin: 10px 30px;
+    margin: 20px 0 30px 0;
 }
 
 #title {
@@ -46,6 +57,5 @@ body {
 }
 
 #main-section {
-    margin: 0 auto;
-    width: 80%;
+    text-align: center;
 }
